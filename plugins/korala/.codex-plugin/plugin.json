@@ -1,0 +1,42 @@
+{
+  "name": "korala",
+  "version": "0.6.0",
+  "description": "Draft, prepare, send and track document signing requests in Korala.",
+  "author": {
+    "name": "Korala",
+    "email": "support@korala.ai",
+    "url": "https://korala.ai"
+  },
+  "homepage": "https://docs.korala.ai/ai-agents/codex",
+  "license": "MIT",
+  "keywords": [
+    "e-signature",
+    "documents",
+    "contracts",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Korala",
+    "shortDescription": "Send documents for signature",
+    "longDescription": "Connects Codex to Korala. Draft an agreement in Markdown, turn it into a signing request for the people you name, send it when you say so, and track who has signed. Sending is off unless you allow it when you sign in, and Codex can never sign for anyone.",
+    "developerName": "Korala",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://korala.ai",
+    "privacyPolicyURL": "https://korala.ai/privacy",
+    "termsOfServiceURL": "https://korala.ai/terms",
+    "defaultPrompt": [
+      "Draft a one-page mutual NDA and prepare it for signing in Korala",
+      "Which of my Korala documents are still waiting for a signature?"
+    ],
+    "brandColor": "#B44332",
+    "composerIcon": "./assets/korala.svg",
+    "logo": "./assets/korala.svg"
+  }
+}

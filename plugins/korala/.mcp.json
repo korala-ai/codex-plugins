@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "korala": {
+      "type": "http",
+      "url": "https://api.korala.ai/mcp",
+      "required": true,
+      "startup_timeout_sec": 60
+    }
+  }
+}
